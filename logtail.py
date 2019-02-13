@@ -62,6 +62,6 @@ def get_endlist(f, ts):
     else:
         f.seek(pos)
         return f.read()
-with open('my_log', encoding="latin-1") as f:
+with open('search', encoding="latin-1") as f:
     timestop = '01/Jul/1995:04:38:24'
     print(get_endlist(f, timestop))
